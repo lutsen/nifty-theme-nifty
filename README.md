@@ -15,8 +15,7 @@ Variables
 ---------
 
 In the in *variables.less* file you can change the colors of different template elements.  
-*@svg-color* is the color of the SVG social icons in the footer, and should not be preceded by a #.  
-*@background-image-header* is not used in this theme.
+*@svg-color* is the color of the SVG social icons in the footer, and should not be preceded by a #.
 
 
 LESS

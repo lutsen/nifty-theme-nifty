@@ -25,6 +25,10 @@ body {
 	background-color: @background-color-body;
 }
 
+.header-container {
+	background-image: none !important;
+}
+
 .header {
 	position: relative;
 	margin: 0 auto;
@@ -64,6 +68,11 @@ body {
 		/* Not used in this theme */
 		display: none;
 	}
+
+	.description {
+		/* Not used in this theme */
+		display: none;
+	}
 }
 
 .main-container {
@@ -84,7 +93,7 @@ body {
 	background-color: @background-color-content;
 	overflow: hidden;
 	display: inline-block;
-	margin: 0;
+	margin: 24px 0 0 0;
 
 	width: ~"calc(100% - 24px)"; // Escape in LESS
 
@@ -102,5 +111,11 @@ body {
 	@media (min-width: 1197px) {
 		width: 795px;
 		vertical-align: top;
+	}
+}
+
+.logo-displayed .content {
+	@media (max-width: 1196px) {
+		margin-top: 0;
 	}
 }
